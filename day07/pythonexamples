@@ -1,0 +1,19 @@
+# 90+: A
+# 80+: B
+# 70+: C
+# 60+: D
+# <60:: F
+
+grade = 89.999
+if grade >= 90:
+    print("You got an A great work!")
+elif grade >=80:
+    print("You got a B")
+elif grade >= 70:
+    print("You got a C")
+elif grade >= 60:
+    print("You got a D, you should probably get extra help.")
+
+else:
+    print("You fail, try harder next time")
+    
